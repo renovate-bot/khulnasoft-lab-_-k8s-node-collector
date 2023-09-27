@@ -15,7 +15,7 @@ func init() {
 
 var rootCmd = &cobra.Command{
 	Use:   "node-collector",
-	Short: "trivy-collector extract file system info",
+	Short: "vul-collector extract file system info",
 	Long:  `A tool which provide a way to extract file info which is not accessible via pre-define commands`,
 	RunE: func() func(cmd *cobra.Command, args []string) error {
 		return func(cmd *cobra.Command, args []string) error {
